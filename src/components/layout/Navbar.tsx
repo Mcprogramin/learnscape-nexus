@@ -14,7 +14,7 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Home', path: '/', icon: <Home className="h-5 w-5 mr-1" /> },
     { name: 'News', path: '/news', icon: <Newspaper className="h-5 w-5 mr-1" /> },
-    { name: 'Blog', path: '/blog', icon: <Book className="h-5 w-5 mr-1" /> },
+    { name: 'Blog', path: '/blogs', icon: <Book className="h-5 w-5 mr-1" /> },
     { name: 'Library', path: '/library', icon: <Library className="h-5 w-5 mr-1" /> },
   ];
 
