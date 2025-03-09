@@ -1,7 +1,7 @@
 
-import { Layout } from "@/components/layout/Layout";
-import { ResourceList } from "@/components/library/ResourceList";
-import { UploadResource } from "@/components/library/UploadResource";
+import Layout from "@/components/layout/Layout";
+import ResourceList from "@/components/library/ResourceList";
+import UploadResource from "@/components/library/UploadResource";
 
 const Library = () => {
   return (

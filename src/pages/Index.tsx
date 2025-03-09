@@ -1,9 +1,9 @@
 
-import { Layout } from "@/components/layout/Layout";
-import { Hero } from "@/components/home/Hero";
-import { FeaturedNews } from "@/components/home/FeaturedNews";
-import { QuickLinks } from "@/components/home/QuickLinks";
-import { SchoolStats } from "@/components/home/SchoolStats";
+import Layout from "@/components/layout/Layout";
+import Hero from "@/components/home/Hero";
+import FeaturedNews from "@/components/home/FeaturedNews";
+import QuickLinks from "@/components/home/QuickLinks";
+import SchoolStats from "@/components/home/SchoolStats";
 
 const Index = () => {
   return (

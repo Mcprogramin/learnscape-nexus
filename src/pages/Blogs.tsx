@@ -1,6 +1,6 @@
 
-import { Layout } from "@/components/layout/Layout";
-import { BlogList } from "@/components/blog/BlogList";
+import Layout from "@/components/layout/Layout";
+import BlogList from "@/components/blog/BlogList";
 
 const Blogs = () => {
   return (
