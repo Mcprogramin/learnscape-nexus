@@ -45,7 +45,7 @@ const Navbar = () => {
             </div>
             
             <div className="flex space-x-2 ml-4">
-              <Link to="/profile">
+              <Link to="/login">
                 <Button variant="outline" size="sm" className="flex items-center">
                   <User className="h-4 w-4 mr-1" />
                   Profile
@@ -83,7 +83,7 @@ const Navbar = () => {
               </Link>
             ))}
             <div className="flex flex-col space-y-2 pt-2 border-t border-gray-200">
-              <Link to="/profile" onClick={() => setIsOpen(false)}>
+              <Link to="/login" onClick={() => setIsOpen(false)}>
                 <Button variant="outline" size="sm" className="w-full flex items-center justify-center">
                   <User className="h-4 w-4 mr-1" />
                   Profile

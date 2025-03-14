@@ -27,6 +27,7 @@ const App = () => (
           <Route path="/news" element={<News />} />
           <Route path="/library" element={<Library />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/profile" element={<Login />} /> {/* Temporarily redirecting profile to login */}
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
